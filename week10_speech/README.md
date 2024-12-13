@@ -7,13 +7,17 @@
  
  
 ### Further reading
- * Interactive explanation of CTC loss - [blog post](https://www.youtube.com/watch?v=3MjIkWxXigM)
+* Interactive explanation of CTC loss - [blog post](https://www.youtube.com/watch?v=3MjIkWxXigM)
 * Interactive demo of how human throat produces sound - [click here](https://dood.al/pinktrombone/)
-
+* **"I wanna run speech recognition in production [2022-2024]"**
+    * For highest quality 'offline' ASR (non-simultaneous), use Whisper ([HF models](https://huggingface.co/openai/whisper-large-v3), [ArXiv](https://arxiv.org/abs/2212.04356))
+    * For online ASR, see lecture (e.g. [Jasper](https://arxiv.org/pdf/1904.03288), but seek newer models)
+* **"I wanna run speech synthesis in production**
+    * [TortoiseTTS](https://github.com/neonbjb/tortoise-tts) is a good start - has pre-trained models and the training code.
  
 ### Practice
 
-As usual, open `practice.ipynb` and follow insructions from there. Or use colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yandexdataschool/practical_dl/blob/fall22/week10_speech/practice.ipynb).
+As usual, open `practice.ipynb` and follow insructions from there. Or use colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yandexdataschool/practical_dl/blob/fall24/week10_speech/practice.ipynb).
 
 
 __OPTIONAL:__ if you wanna try speech synthesis, 'ere you go:
